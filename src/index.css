@@ -1,0 +1,59 @@
+/*-----Adam Demol 2022-----*/
+:root {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* { margin: 0px; padding: 0px; border: 0px; box-sizing: border-box; }
+*::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+.App {
+  text-align: center;
+}
+
+.products-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.product {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 4px #ddd;
+}
+
+.product img {
+  object-fit: cover;
+}
+
+.prod-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.pagination {
+  margin: 3rem 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.pag-btn {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.pag-btn:hover {
+  border: 1px solid #444;
+}
